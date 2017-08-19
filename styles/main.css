@@ -1,126 +1,126 @@
-
 /*Part 1*/
+
 body {
-    color:#3a3a3a;
-    background-color:#e3e3e3;
-    font-family:Arial, Helvetica, sans-serif;
-    margin:0px;
+    color: #3a3a3a;
+    background-color: #e3e3e3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
-h1  {
-    font-family:40px;
+h1 {
+    font-family: 40px;
 }
 
 h2 {
-    font-family:40px;
+    font-family: 40px;
 }
 
 a {
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
-h1, h2, h3, h4, h5 {
-    margin:0px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0px;
 }
+
+
 /*Part 2: Header and Wrapper*/
-article {
-  background-color:#fff;
-  margin-top:0px;
-  margin-bottom:0px;
-  margin-left:15px;
-  margin-right:15px;  
 
+article {
+    background-color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .site {
-    background-color:#89bdd3;
-    color:#fff;
-    padding:20px;
-
+    background-color: #89bdd3;
+    color: #fff;
+    padding: 20px;
 }
+
 
 /*Part 3: Navigation*/
 
 nav {
-    background-color:#9ad3de;
+    background-color: #9ad3de;
     border-top: solid 1px #3a3a3a;
     border-bottom: solid 1px #3a3a3a;
 }
 
-nav a{
-    font-weight:bold;
-    padding:20px;
-    text-decoration:none;
-    
+nav a {
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
+
+
 /*Part 4: Article */
 
-
 .main {
-    float:left;
-    padding:20px;
-    width:60%;
+    float: left;
+    padding: 20px;
+    width: 60%;
 }
+
 
 /*Article header*/
-.main h1, h5 {
-    text-align:center;
-    margin-bottom:20px;
-    
-}    
+
+.main h1,
+h5 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 /*Article Footer*/
+
 footer {
-    border-top:solid 1px #3a3a3a;
-    border-bottom:solid 1px #3a3a3a;
-    text-align:center;
-    clear:both;
-    
-    
-    
+    border-top: solid 1px #3a3a3a;
+    border-bottom: solid 1px #3a3a3a;
+    text-align: center;
+    clear: both;
 }
 
-footer img{
-    border:solid 3px #3a3a3a;
+footer img {
+    border: solid 3px #3a3a3a;
     border-radius: 100px;
-    padding:5px;
-
+    padding: 5px;
 }
+
 
 /*Part 5: Side Bar*/
 
-
-    
-
-    
-.sidebar{
-    float:right;
-   
-    
-    
+.sidebar {
+    float: right;
 }
 
 .sidebarpost {
-    padding:10px;
-    margin:20px;
-    border:solid 1px #3a3a3a;
+    padding: 10px;
+    margin: 20px;
+    border: solid 1px #3a3a3a;
 }
 
 .sidebarcomments {
-    padding:10px;
-    margin:20px;
-    border:solid 1px #3a3a3a;
+    padding: 10px;
+    margin: 20px;
+    border: solid 1px #3a3a3a;
 }
 
 .sidebar li {
-    margin-top:5px;
-    margin-bottom:5px;
-  
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.clear{
-    clear:both;
+
+.clear {
+    clear: both;
 }
